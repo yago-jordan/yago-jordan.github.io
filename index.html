@@ -1,79 +1,236 @@
-<!doctype html>
-<html>
-  <head>
-    <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Mi repositorio web by Yago</title>
-    <meta name="description" content="A brief description of your site for search engines">
-    <meta name="author" content="Information about the author here">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+<!DOCTYPE html>
+<html lang="es">
 
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
-  </head>
-  
-  <body>
+<head>
 
-    <header id="header">
-      <img src="logo.png">
-      <h1>Simple Website</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
-    </header>
-   
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2>Home</h2>
-            <p>
-              This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
-            </p>
-          </div>
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
-            </p>
-          </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-              Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
-            </p>
-          </div>
-          
-        </div>
-      </div>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Yago - Página Personal</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat"
+        rel="stylesheet">
+
+  <!-- Mi CSS -->
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <!-- JavaScript de Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+
+
+<!-- Barra de navegación -->
+
+<nav class="navbar navbar-default">
+
+  <div class="container">
+
+    <div class="navbar-header">
+
+      <button type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#myNavbar">
+
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+      </button>
+
+      <a class="navbar-brand" href="#">
+        YAGO
+      </a>
+
     </div>
 
-    <footer>  
-      Footer region
-    </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+
+      <ul class="nav navbar-nav navbar-right">
+
+        <li>
+          <a href="#inicio">INICIO</a>
+        </li>
+
+        <li>
+          <a href="#sobre-mi">SOBRE MÍ</a>
+        </li>
+
+        <li>
+          <a href="#proyectos">PROYECTOS</a>
+        </li>
+
+        <li>
+          <a href="#contacto">CONTACTO</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</nav>
+
+
+
+<!-- Primera sección -->
+
+<div id="inicio" class="container-fluid bg-1 text-center">
+
+  <h1 class="margin">
+    Hola, soy Yago
+  </h1>
+
+  <img src="media/png-transparent-bob-the-minion-kevin-the-minion-minions-sad.png"
+       class="img-responsive img-circle margin foto-principal"
+       alt="Foto de Yago">
+
+  <h3>
+    Estudiante de informática y apasionado por la tecnología
+  </h3>
+
+</div>
+
+
+
+<!-- Segunda sección -->
+
+<div id="sobre-mi" class="container-fluid bg-2 text-center">
+
+  <h2 class="margin">
+    Sobre mí
+  </h2>
+
+  <p>
+    Soy estudiante de informática y me interesa especialmente
+    el mundo de los sistemas, las redes y el desarrollo web.
+  </p>
+
+  <p>
+    Durante mis estudios he trabajado con Linux, servidores,
+    redes, bases de datos, HTML, CSS, JavaScript y Bootstrap.
+  </p>
+
+</div>
+
+
+
+<!-- Tercera sección -->
+
+<div id="proyectos" class="container-fluid bg-3 text-center">
+
+  <h2 class="margin">
+    Mis proyectos
+  </h2>
+
+  <div class="row">
+
+    <div class="col-sm-4">
+
+      <div class="proyecto">
+
+        <h3>
+          Redes
+        </h3>
+
+        <p>
+          Configuración de redes, VLAN, NAT, DHCP
+          y diferentes dispositivos de red.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="col-sm-4">
+
+      <div class="proyecto">
+
+        <h3>
+          Linux
+        </h3>
+
+        <p>
+          Administración de servidores Linux,
+          usuarios, permisos, almacenamiento y servicios.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="col-sm-4">
+
+      <div class="proyecto">
+
+        <h3>
+          Desarrollo Web
+        </h3>
+
+        <p>
+          Creación de páginas web utilizando HTML,
+          CSS, JavaScript y Bootstrap.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- Cuarta sección -->
+
+<div id="contacto" class="container-fluid bg-2 text-center">
+
+  <h2 class="margin">
+    Contacto
+  </h2>
+
+  <p>
+    Si quieres contactar conmigo puedes hacerlo
+    a través de mi correo electrónico.
+  </p>
+
+  <p>
+    <strong>Email:</strong> yagjorcan@alu.edu.gva.es
+  </p>
+
+</div>
+
+
+
+<!-- Pie de página -->
+
+<footer class="container-fluid bg-4 text-center">
+
+  <p>
+    © 2026 Yago - Página personal
+  </p>
+
+</footer>
+
+
+</body>
+
 </html>
