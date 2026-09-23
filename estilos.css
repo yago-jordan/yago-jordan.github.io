@@ -1,0 +1,126 @@
+/* Estilos generales */
+
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #333333;
+}
+
+
+/* Tamaño de los párrafos */
+
+p {
+  font-size: 16px;
+}
+
+
+/* Margen inferior */
+
+.margin {
+  margin-bottom: 45px;
+}
+
+
+/* Primera sección */
+
+.bg-1 {
+  background-color: #1abc9c;
+  color: #ffffff;
+}
+
+
+/* Segunda sección */
+
+.bg-2 {
+  background-color: #474e5d;
+  color: #ffffff;
+}
+
+
+/* Tercera sección */
+
+.bg-3 {
+  background-color: #ffffff;
+  color: #555555;
+}
+
+
+/* Pie de página */
+
+.bg-4 {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+
+/* Espaciado de las secciones */
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+
+/* Barra de navegación */
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  border: 0;
+
+  border-radius: 0;
+
+  margin-bottom: 0;
+
+  font-size: 12px;
+
+  letter-spacing: 4px;
+}
+
+
+/* Efecto al pasar el ratón por los enlaces */
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+
+/* Imagen principal */
+
+.foto-principal {
+  width: 280px;
+  height: 280px;
+
+  object-fit: cover;
+
+  display: inline;
+}
+
+
+/* Proyectos */
+
+.proyecto {
+  background-color: #f2f2f2;
+
+  padding: 25px;
+
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+}
+
+
+/* Títulos de los proyectos */
+
+.proyecto h3 {
+  color: #1abc9c;
+}
+
+
+/* Efecto al pasar por encima de los proyectos */
+
+.proyecto:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
